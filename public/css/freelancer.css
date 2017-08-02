@@ -256,6 +256,7 @@ section.success {
     font-weight: bold;
     font-family: serif;
     font-size: 32px;
+    color: #57595a;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -397,6 +398,10 @@ footer .right {
     padding: 25px 0;    
 }
 
+footer .left {    
+    padding: 25px 0;  
+    float: left;
+}
 
 .btn-outline {
     color: white;
