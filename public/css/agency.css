@@ -10,7 +10,7 @@ hr.star-primary {
     border: none;
     border-top: solid 2px;
     text-align: center;
-    max-width: 40px;
+    max-width: 140px;
     margin: 45px auto 30px;
 }
 
@@ -39,7 +39,9 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777777;
+  color: #0f0f0f;
+    font-size: 1.1em;
+    font-style: italic;
 }
 .text-primary {
   color: #fed136;
@@ -132,14 +134,18 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: rgba(137, 21, 188, 0.62);
+  border-color: rgb(199, 199, 214);
+    border-width: 2px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  text-align:left;
   font-weight: 700;
-  border-radius: 3px;
+  border-radius: 7px;
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 8px 20px;
+max-height: 60px;
+    max-width: 190px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -147,8 +153,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #5e09b4;
+  border-color: #7e7e75;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -190,7 +196,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: rgba(177, 54, 254, 0.5);
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -205,7 +211,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: rgba(177, 54, 254, 0.71);
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -222,12 +228,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: #b136fe;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: rgba(177, 54, 254, 0.84);
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -236,13 +242,16 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
-    border: none;
+    border:none;
+      font-size: 1.06em;
   }
   .navbar-custom .navbar-brand {
+      background-image: url(/public/img/portfolio/AF_Logo1.png);
     font-size: 2em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+     
   }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
@@ -258,15 +267,12 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/background/speed.jpg');
-    max-height: 440px;
-    
     background: linear-gradient(
-      rgba(0, 0, 0, 0.35),
-      rgba(0, 0, 0, 0.35)
-    ), url("../img/background/speed.jpg");
-  
-  background-repeat: no-repeat;
+      rgba(0, 0, 0, 0.35) 100%,
+      rgba(0, 0, 0, 0.35) 100%
+    ), url("../img/background/accelerate_purp.gif");
+  background-position:top;
+  background-repeat:no-repeat;
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
@@ -288,6 +294,7 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
+    position:a;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -297,18 +304,20 @@ header .intro-text .intro-heading {
 }
 
 header img {
-    display: block;
+    display:run-in;
     margin: 0 auto 20px;
 }
 @media (min-width: 768px) {
+    
   header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 280px;
+    padding-bottom: 50px;
   }
+    
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
     margin-bottom: 25px;
   }
@@ -339,12 +348,15 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 80px 0;
+
+      padding-left: 12px;
   }
 }
 .service-heading {
-  margin: 15px 0;
+  margin: 20px 0;
   text-transform: none;
+    font-size: 1.8em;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -465,7 +477,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: #df36fe;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -502,6 +514,7 @@ section h3.section-subheading {
 }
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
+    font-size: 1.7em;
 }
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
@@ -787,4 +800,42 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+.block2 {
+    background-image: url('/public/img/background/blocksPipe1.png');
+          background-position:left;
+  background-repeat:repeat;
+  background-attachment:fixed;
+  background-position:top;
+
+  background-size:cover;
+
+}
+.block {
+    background-image: url('/public/img/background/blocks_purpLt.png');
+          background-position:left;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:top;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  -o-background-size: cover;
+}
+
+.partition {
+    height: 34px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, #4e4c4c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, #4e4c4c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, #4e4c4c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, #4e4c4c); /* Standard syntax (must be last) */
+}
+
+.soft-blur-overlay {
+    -webkit-filter: blur(3px);
+}
+
+.soft-blur-overlay:hover {
+    -webkit-filter: none;
 }
