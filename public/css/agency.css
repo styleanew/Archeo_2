@@ -802,14 +802,13 @@ body {
   webkit-tap-highlight-color: #fed136;
 }
 .block2 {
-    background-image: url('/public/img/background/blocksPipe1.png');
+    background-image: url('/public/img/background/blocks_2.png');
           background-position:left;
   background-repeat:repeat;
   background-attachment:fixed;
   background-position:top;
 
   background-size:cover;
-
 }
 .block {
     background-image: url('/public/img/background/blocks_purpLt.png');
